@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lin {
+  width: 8%;
+  height: 30px;
+}
+
+.git {
+  width: 8%;
+  height: 30px;
+}

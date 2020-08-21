@@ -19,11 +19,6 @@ const Contactme = () => {
           <img src={github} alt="Github" />
         </a>
       </div>
-
-      <div className={styles.git}>
-        <img src={mail} alt="Correo" />
-        <a href="oraliagarrido@gmail.com">Correo</a>
-      </div>
     </section>
   );
 };
@@ -32,7 +27,8 @@ export default Contactme;
 
 /*      
 
-  <Link to="https://www.linkedin.com/in/oralia-garrido-87b835106/">
-      <img src={lin} alt="linkendIn" className={styles.lin} />
-    </Link>
+   <div className={styles.git}>
+        <img src={mail} alt="Correo" />
+        <a href="oraliagarrido@gmail.com">Correo</a>
+      </div>
 */
